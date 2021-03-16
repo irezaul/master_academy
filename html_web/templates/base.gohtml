@@ -10,28 +10,22 @@
      <meta name="keywords" content="">
      <meta name="author" content="Tooplate">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/all.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+     <link rel="stylesheet" href="resources/css/all.min.css">
+     <link rel="stylesheet" href="/resources/css/owl.carousel.min.css">
+     <link rel="stylesheet" href="resources/css/owl.theme.default.min.css">
 
      <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+     <link rel="stylesheet" href="resources/css/tooplate-ben-resume-style.css">
 
 </head>
-
-
-<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 {{block "header" .}}
     <!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg">
         <div class="container">
-
-            <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
                 Coding Boot Camp
             </a>
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -62,6 +56,7 @@
 
         </div>
     </nav>
+
 {{end}}
 
 {{block "container" .}}
@@ -72,7 +67,7 @@
             <div class="row">
 
                   <div class="mx-auto col-lg-5 col-md-5 col-10">
-                      <img src="images/mostain.png" class="img-fluid" alt="Ben Resume HTML Template">
+                      <img src="resources/images/mostain.png" class="img-fluid" alt="Ben Resume HTML Template">
                   </div>
 
                    <div class="d-flex flex-column justify-content-center align-items-center col-lg-10 col-md-10 col-12">
@@ -97,7 +92,6 @@
                     <h3 class="mb-4">Owner of Mateors.com </h3>
 
                     <p>MATEORS DOT COM is an innovative software development company born in 2007. We are a company specialized in problem based software development, we pick a problem, think it, design it and finally make a solution for it. We have 12+ years of experience in software development and developed several applications for different industry including Telco, Education and Finance. Our main objective is solve community problem leveraging technology.
-
                       Our Existing Software Solutions: Telerecharge a Mobile recharge solution (Telco), Digital truck scale, EduOMR an Optical mark reader (OMR for Education), MASTER-ERP an ERP for local business. <a rel="nofollow" href="https://www.mateors.com" target="_parent">Mateors website</a></p>
                   <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
                         <li><strong>Full Name :</strong> Mostain Billah</li>
@@ -109,7 +103,9 @@
                         <li><strong>Email :</strong> info@mateors.com</li>
                     </ul>
                 </div>
-
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="resources/images/about-img.jpg" class="about-image img-fluid" alt="Mateors DOT COM">
+                </div>
     </section>
 
 
@@ -125,7 +121,7 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
-                                        <img src="images/testimonials/asgor.png" class="img-fluid" alt="testimonials image">
+                                        <img src="resources/images/testimonials/asgor.png" class="img-fluid" alt="testimonials image">
                                     </div>
 
                                     <div class="testimonials-info">
@@ -140,7 +136,7 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
-                                        <img src="images/testimonials/nasarul.png" class="img-fluid" alt="testimonials image">
+                                        <img src="resources/images/testimonials/nasarul.png" class="img-fluid" alt="testimonials image">
                                     </div>
 
                                     <div class="testimonials-info">
@@ -155,7 +151,7 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
-                                        <img src="images/testimonials/shamim.png" class="img-fluid" alt="testimonials image">
+                                        <img src="resources/images/testimonials/shamim.png" class="img-fluid" alt="testimonials image">
                                     </div>
 
                                     <div class="testimonials-info">
@@ -170,7 +166,7 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
-                                        <img src="images/testimonials/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
+                                        <img src="resources/images/testimonials/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
                                     </div>
 
                                     <div class="testimonials-info">
@@ -188,8 +184,8 @@
                </div>
           </div>
      </section>
-{{end}}
 
+{{end}}
 {{block "footer" .}}
       <!-- FAQ -->
      <section class="faq section-padding">
@@ -291,7 +287,6 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
-{}
+{{end}}
 </body>
-
 </html>
