@@ -19,8 +19,9 @@
      <link rel="stylesheet" href="resources/css/tooplate-ben-resume-style.css">
 
 </head>
-{{block "header" .}}
+
     <!-- MENU BAR -->
+    {{block "header" .}}
         <div class="container">
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
@@ -33,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                        <a href="#intro" class="nav-link">Introduction</a>
                     </li>
 
                     <li class="nav-item">
@@ -67,14 +68,13 @@
             <div class="row">
 
                   <div class="mx-auto col-lg-5 col-md-5 col-10">
-                      <img src="resources/images/mostain.png" class="img-fluid" alt="Ben Resume HTML Template">
+                      <img src="resources/images/mostain.png" class="img-fluid" alt="mostain-img">
                   </div>
 
                    <div class="d-flex flex-column justify-content-center align-items-center col-lg-10 col-md-10 col-12">
                         <div class="hero-text">
-                                               
-                            <center><h1 class="hero-title"> 👨🏻‍💻 Mostain Billah, a skilled Programmer</h1>
-                             <a href="#" class="email-link">info@mateors.com </a>
+                             <center><h1 class="hero-title"> 👨🏻‍💻 Mostain Billah, a skilled Programmer</h1>
+                             <a href="info@mateors.com" class="email-link">info@mateors.com </a>
                           </center>
                         </div>
                     </div>
@@ -110,7 +110,8 @@
 
 
     <!-- TESTIMONIAL what Peoples say--> 
-     <section class="testimonials section-padding" id="testimonials">
+     
+                            <section class="testimonials section-padding" id="testimonials">
           <div class="container">
                <div class="row">
 
@@ -119,24 +120,16 @@
 
                         <div class="owl-carousel owl-theme" id="testimonials-carousel">
                             <div class="item">
+                                
+      <div class="testimonials-image">
+           <img src="resources/images/asgor.png" class="img-fluid" alt="testimonials image">
+          </div>        
+            </div>
+          </div>
+          </div><div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
-                                        <img src="resources/images/testimonials/asgor.png" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>I am very happy to learn the work from the coding boot camp through which I have learned to change myself</p>
-
-                                        <h6 class="mb-0">Asgor Ali</h6>
-                                        <span>The Helping Man</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="resources/images/testimonials/nasarul.png" class="img-fluid" alt="testimonials image">
+                                        <img src="resources/images/nasarul.png" class="img-fluid" alt="Nasarul image">
                                     </div>
 
                                     <div class="testimonials-info">
@@ -151,7 +144,7 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
-                                        <img src="resources/images/testimonials/shamim.png" class="img-fluid" alt="testimonials image">
+                                        <img src="resources/images/shamim.png" class="img-fluid" alt="Shamim image">
                                     </div>
 
                                     <div class="testimonials-info">
@@ -166,15 +159,20 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
-                                        <img src="resources/images/testimonials/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
+                                        <img src="resources/images/asgor.png" class="img-fluid" alt="Shamim image">
                                     </div>
 
                                     <div class="testimonials-info">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                                        <p>I try my best to help others and stay with this coding boot camp in the future</p>
 
-                                        <h6 class="mb-0">Wilson</h6>
-                                        <span>Web Developer</span>
+                                        <h6 class="mb-0">Shamim Mia</h6>
+                                        <span>Good Knowledger</span>
                                     </div>
+                                </div>
+                            </div>
+
+                            
+                                    
                                 </div>
                             </div>
                         </div>
@@ -185,8 +183,7 @@
           </div>
      </section>
 
-{{end}}
-{{block "footer" .}}
+
       <!-- FAQ -->
      <section class="faq section-padding">
         
@@ -203,7 +200,7 @@
                         <div class="card-header" id="headingOne">
                           <h2 class="mb-0">
                             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              We're started a coding bootcapm by free of cost.
+                              We're started a coding boot camp by free of cost.
                             </button>
                           </h2>
                         </div>
@@ -254,7 +251,7 @@
             <div class="mx-auto col-lg-4 col-md-6 col-12">
                 <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
 
-                <p class="mb-1">+880 1</p>
+                <p class="mb-1">+880 </p>
 
                 <p>
                     <a href="https://mateors.com/">
@@ -287,6 +284,7 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
+     
 {{end}}
 </body>
 </html>
